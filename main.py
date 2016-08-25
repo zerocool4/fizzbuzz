@@ -10,10 +10,8 @@ def fizzbuzz(num):
 
     return result
 
-
 def main():
     print "\n".join(fizzbuzz(n) for n in xrange(1,100))
-
 
 if __name__ == '__main__':
 	main()
